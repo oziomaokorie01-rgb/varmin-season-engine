@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "gameId": "varmin-season",
+  "defaultLocale": "en",
+  "locales": {
+    "en": {
+      "name": "Varmin' Season",
+      "description": "Push-your-luck barn shooter: six holes hide rats and farmers. Cash out or pull again."
+    }
+  },
+  "presentation": {
+    "mode": "full-iframe",
+    "hostPanels": { "openSession": false, "history": false, "status": false }
+  },
+  "capabilities": {
+    "openSession": true,
+    "submitAction": true,
+    "forfeitExpiredSession": false,
+    "cancelStuckRandomness": false,
+    "resize": true
+  }
+}

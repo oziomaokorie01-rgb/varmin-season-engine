@@ -1,0 +1,30 @@
+{
+  "name": "varmin-season-port",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3100",
+    "build": "vite build",
+    "preview": "vite preview --port 3100",
+    "test": "vitest run --passWithNoTests",
+    "check-types": "tsc --noEmit",
+    "simulator": "chain dev casino --frontend-url http://localhost:3100"
+  },
+  "dependencies": {
+    "@chain-protocol/casino-sdk": "^0.7.0",
+    "@fontsource/poppins": "^5.2.7",
+    "@fontsource/rubik": "^5.2.8",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "viem": "^2.52.2"
+  },
+  "devDependencies": {
+    "@chain-protocol/cli": "^0.7.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^7.0.2",
+    "vite": "^7.3.0",
+    "vitest": "^3.2.4"
+  }
+}
